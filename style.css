@@ -1,0 +1,105 @@
+
+
+.container{
+    width:800px;
+    height:650px;
+    margin:250px auto;
+    padding:10px 20px 30px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke);
+    background-color: white;
+    box-shadow: 0 0 20px;
+}
+.name{
+    font-weight: lighter;
+}
+.f1{
+    font-family:  sans-serif;
+    position:relative;
+    left:10px;
+   
+}
+.f2{
+    font-family:  sans-serif;
+    position: relative;
+    left:450px;
+  
+   bottom:228px;
+   
+}
+.checkbox{
+   position:relative;
+   bottom:100px;
+}
+
+p{
+    position: relative;
+    bottom:100px;
+    font-style: italic;
+    
+}
+.btn{
+    position: relative;
+    bottom:100px;
+}
+
+.f1 input{
+    width:40%;
+    height: 43px;
+    font-weight: bold;
+    border-radius: 3px;
+    border:1px solid grey;
+   
+    
+}   
+
+.f2 input{
+    width:40%;
+    height:40px;
+    font-weight: bold;
+    border-radius: 3px;
+    border:1px solid grey;
+
+   
+}
+
+.btn{
+    text-align:center;
+    margin-top:20px;
+    background-image:linear-gradient(to left,rgb(77, 3, 77));
+   
+}
+ .btn button{
+    width:100%;
+    height:50px;
+    background-image: linear-gradient(to right, #440223 0% ,#83306e 100%);
+   border-radius: 5px;
+   font-size: medium;
+}
+
+#gender{
+    font-weight: bolder;
+}
+
+label{
+    font-weight:bolder;
+
+
+}
+
+.checkbox{
+    position: relative;
+    bottom:150px;
+}
+
+button:hover{
+            color: aliceblue;
+}
+
+@media screen (min-width:329px){
+    .container {
+        width:30%;
+        float:left;
+        padding:10px;
+    }
+}
